@@ -5,25 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="header">
         <img src="assets/logo.png" class="logo"/>
-        <button class="explore-section">
-            <div class="explore-section-content">
-                Explore
-                <i class="bi bi-chevron-down downward-icon"></i>
+
+        <div class="dropdown">
+            <button class="explore-section">
+                <a class="explore-section-content">
+                    Explore
+                    <i class="bi bi-chevron-down downward-icon"></i>
+                </a>
+            </button>
+            <div class="dropdown-content">
+                <div class="dropdown-content-1">
+                    <p>Goals</p>
+                    <a href="#">Take a free course</a>
+                    <a href="#">Earn a degree</a>
+                    <a href="#">Earn a certificate</a>
+                    <a href="#">Find your new career</a>
+                </div>
+                <div class="dropdown-content-1">
+                    <p>Subjects</p>
+                    <a href="#">Data Science</a>
+                    <a href="#">Business</a>
+                    <a href="#">Computer Science</a>
+                    <a href="#">Information Technology</a>
+                    <a href="#">Language Learning</a>
+                    <a href="#">Health</a>
+                    <a href="#">Personal Development</a>
+                    <a href="#">Physical Science and Engineering</a>
+                    <a href="#">Social Sciences</a>
+                    <a href="#">Art and Humanities</a>
+                    <a href="#">Math and Logic</a>
+                </div>
             </div>
-        </button>
+          </div>
         <div class="search-box">
-            <div class="search-placeholder">What do you want to learn?</div>
+            <input class="search-placeholder" placeholder="What do you want to learn?"/>
             <button type="button" class="btn btn-primary search-button">
                 <i class="bi bi-search"></i>
             </button>
         </div>        
-    </div>
-    
     </div>
 </body>
 </html>
